@@ -103,6 +103,9 @@ header.shadow {
 .home-img {
 
   order: 3;
+  box-shadow: 2px 2px 5px 2px rgba(0, 7, 20, 0.742);
+  border-radius: .5rem;
+
 }
 .home-img img {
   width: 100%;
@@ -407,6 +410,7 @@ form textarea {
   header {
     padding: 11px 4%;
   }
+  
   #menu-icon {
     display: initial;
     color: var(--text-color);
@@ -470,6 +474,16 @@ form textarea {
   .contact-form form{
     width: 300px;
   }
+  .portfolio-content {
+    grid-template-columns: repeat(2, 1fr); /* Two items per row */
+}
+
+.portfolio-img img {
+    width: 90%; /* Reduce image width on smaller screens */
+    margin: 0 auto; /* Center images */
+}
+
+  
   .contact-button{
     margin-left: 25%;
   }
